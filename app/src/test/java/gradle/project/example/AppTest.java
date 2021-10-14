@@ -16,8 +16,15 @@ public class AppTest {
     	try {
 			Thread.sleep(13000);
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+    }
+    
+    @Test public void testDelay30seconds() {
+    	try {
+    		Thread.sleep(30000);
+    	} catch(InterruptedException e) {
+    		e.printStackTrace();
+    	}
     }
 }
